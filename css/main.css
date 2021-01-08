@@ -1,0 +1,52 @@
+/* LOGO */
+.navbar .navbar-brand img {
+    transition: 0.3s ease-in-out 0.1s;
+}
+
+.navbar .navbar-brand img:hover{
+    transform: scale(1.5);
+}
+
+/* NAVEGATION */
+.navbar {
+    box-shadow: 2px 2px 5px #000;
+    opacity: 0.9;
+}
+
+.navbar #navbarNav .navbar-nav .nav-item .nav-link {
+    color: white;
+}
+
+.navbar #navbarNav .navbar-nav .nav-item .nav-link:hover {
+    opacity: 0.5;
+}
+
+/* BACKGROUND */
+.main-header {
+    position: relative;
+    background: url(../img/background.jpg);
+    background-size: cover; /*La imagen ocupa toda la pantalla*/
+    min-height: 700px;
+}
+
+.background-overlay {
+    position: absolute;
+    background: rgba(48, 51, 107, .7); /* .7 le da transparencia a la imagen de fondo. */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* NEWSLETTER & BTN */
+.form-control, .btn {
+    border-radius: 0;
+}
+
+.feactures .card:hover {
+    opacity: 0.5;
+}
+
+.team, footer {
+    background: #30336b;
+}
